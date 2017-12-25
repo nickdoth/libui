@@ -221,7 +221,7 @@ add_subdirectory("examples")
 install(TARGETS ${_LIBUINAME}
    LIBRARY DESTINATION lib
    ARCHIVE DESTINATION lib)
-install(FILES ui.h uitable.h DESTINATION include)
+install(FILES ui.h DESTINATION include)
 if (APPLE)
 	install(FILES ui_darwin.h DESTINATION include)
 elseif (WIN32)
